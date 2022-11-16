@@ -1,0 +1,164 @@
+/********************* ICON *********************/
+
+.fa-envelope-open-text {
+  font-size: 25px;
+  color: #c7c7c7;
+  margin: 10px;
+}
+
+.fa-bell {
+  font-size: 25px;
+  color: #c7c7c7;
+  margin: 10px;
+}
+
+.fa-search {
+  font-size: 20px;
+  color: #c7c7c7;
+}
+
+.fa-bell:hover {
+  color: #5691fe;
+  transition: 0.5s;
+}
+
+.fa-envelope-open-text:hover {
+  color: #5691fe;
+  transition: 0.5s;
+}
+
+/********************* MAIN *********************/
+
+.profile-setting-container {
+  border-radius: 20px;
+  width: 97%;
+  margin: 30px;
+  box-shadow: 1px 1px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 50px;
+}
+
+.picture {
+  background-color: #f0f0f0;
+  border: 1px solid #bfbfbf;
+  padding: 20px;
+  border-radius: 7px;
+}
+
+.picture p {
+  font-size: 10pt;
+}
+
+.img-thumbnail {
+  width: 400px !important;
+  height: 400px !important;
+  padding: 0 !important;
+  margin-bottom: 20px;
+}
+
+.btn-picture {
+  width: 100% !important;
+  margin-top: 5px !important;
+  border-radius: 5px !important;
+  background-color: #5691fe !important;
+  color: #ffffff !important;
+}
+
+.btn-picture:hover {
+  background-color: #386ed1 !important;
+  color: #ffffff !important;
+  transition: 0.5s !important;
+  border-radius: 5px !important;
+}
+
+/********************* NAVBAR *********************/
+
+.cari {
+  border-radius: 0 50px 50px 0;
+  background-color: white;
+  box-shadow: none;
+  outline: none;
+}
+
+.input-group input {
+  height: 45px;
+  border-radius: 50px 0 0 50px;
+  font-size: 18px;
+  padding-left: 20px;
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul {
+  font-size: 17px;
+}
+
+.navbar-brand {
+  font-size: 20pt;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #5691fe;
+  transition: 0.5s;
+}
+
+.navbar-light .navbar-brand {
+  color: #5691fe;
+  font-weight: 600;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #5691fe;
+}
+
+.navbar-nav {
+  text-align: center;
+  align-items: center;
+}
+
+.form-width {
+  width: 60%;
+  margin: auto;
+}
+
+.or {
+  background-color: #ffffff;
+  color: #c9c9c9;
+  text-align: center;
+  margin-top: -30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  position: relative;
+}
+
+.container {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  width: 35%;
+  border: 1px solid #d4d4d4;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .container {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .container {
+    min-width: 40%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    min-width: 100%;
+  }
+}

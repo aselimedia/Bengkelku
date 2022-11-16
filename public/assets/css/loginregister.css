@@ -1,0 +1,137 @@
+.modal-content {
+    border: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: none;
+}
+
+.modal-content h3{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.btn {
+    background-color: #5691fe;
+    color: #ffffff;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #386ed1;
+    transition: 0,5s;
+}
+
+img {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    border-radius: 20px;  
+    padding: 20px;
+    box-shadow: 1px 1px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+    width: auto;
+    margin: 8px auto;
+}
+
+.form-group input {
+    height: 45px;
+    border-radius: 20px;
+    font-size: 18px;
+    padding-left: 50px;
+    outline: none;
+    box-shadow: none !important;
+}
+
+.form-check {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.icon {
+    position: absolute;
+    font-size: 20px;
+    color: #949494;
+    left: 35px;
+    margin-top: 12px;
+}
+
+.forget {
+    margin-top: 20px;
+}
+
+.line {
+    width: auto;
+    height: 1px;
+    border-radius: 2px;
+    background-color: #c9c9c9;
+    margin-top: 30px;
+}
+
+.or {
+    background-color: #ffffff;
+    color: #c9c9c9;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    position: relative;
+}
+
+.forget a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.forget a:hover {
+    color: #383838;
+}
+
+.form-wrapper {
+    border-radius: 7px;
+}
+
+.form-wrapper label {
+    font-weight: bold;
+}
+
+.errors li {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+.errors ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .form-wrapper .text-right {
+        text-align: center !important;
+    }
+
+    .form-wrapper .btn-primary {
+        display: block;
+        margin: 0 auto
+    }
+}

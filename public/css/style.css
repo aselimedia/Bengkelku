@@ -1,0 +1,9 @@
+.table > tbody > tr > * {
+  vertical-align: middle;
+}
+
+.profile-bengkel {
+  border: 1px solid #d4d4d4;
+  padding: 50px;
+  border-radius: 20px;
+}

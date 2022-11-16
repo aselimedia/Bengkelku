@@ -1,0 +1,259 @@
+/********************* ICON *********************/
+
+.fa-envelope-open-text {
+  font-size: 25px;
+  color: #c7c7c7;
+  margin: 10px;
+}
+
+.fa-bell {
+  font-size: 25px;
+  color: #c7c7c7;
+  margin: 10px;
+}
+
+.fa-search {
+  font-size: 20px;
+  color: #c7c7c7;
+}
+
+.fa-comment-dots {
+  font-size: 25px !important;
+  color: #ffffff;
+}
+
+.fa-bell:hover {
+  color: #5691fe;
+  transition: 0.5s;
+}
+
+.fa-envelope-open-text:hover {
+  color: #5691fe;
+  transition: 0.5s;
+}
+
+/********************* NAVBAR *********************/
+
+.cari {
+  border-radius: 0 50px 50px 0;
+  background-color: white;
+  box-shadow: none;
+  outline: none;
+}
+
+.input-group input {
+  height: 45px;
+  border-radius: 50px 0 0 50px;
+  font-size: 18px;
+  padding-left: 20px;
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul {
+  font-size: 17px;
+}
+
+.navbar-brand {
+  font-size: 20pt;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #5691fe;
+  transition: 0.5s;
+}
+
+.navbar-light .navbar-brand {
+  color: #5691fe;
+  font-weight: 600;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #5691fe;
+}
+
+.navbar-nav {
+  text-align: center;
+  align-items: center;
+}
+
+.form-width {
+  width: 60%;
+  margin: auto;
+}
+
+/********************* FOOTER *********************/
+
+.footer {
+  background-color: #5691fe;
+  padding: 60px 20px 60px 20px;
+  color: white;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover {
+  color: #386ed1;
+  transition: 0.5s;
+}
+
+.footer p {
+  text-align: center;
+  font-weight: bold;
+}
+
+/********************* MESSAGE *********************/
+
+.pesan {
+  border-radius: 100px;
+  width: 70px;
+  height: 70px;
+  background-color: #3779f3;
+  border: none;
+  outline: none;
+  z-index: 1;
+  bottom: 23px;
+  right: 28px;
+  padding: 15px;
+  position: fixed;
+  box-shadow: 0px 0px 8px 5px rgb(0 0 0 / 10%);
+}
+
+.pesan:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.pesan:hover {
+  background-color: #4180f7;
+  border: none;
+  width: 71px;
+  height: 71px;
+}
+
+/************************************************HOME.PHP************************************************/
+/********************* ICON *********************/
+
+.message .fa-comment-dots {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.fa-user-circle {
+  font-size: 60px;
+  color: #c7c7c7;
+}
+
+/********************* PROFILE *********************/
+
+.profile {
+  min-width: 130px;
+  box-shadow: 0px 3px 8px 1px rgb(0 0 0 / 25%);
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.profile h6 {
+  text-transform: uppercase;
+  padding-top: 10px;
+  text-align: center !important;
+  border-bottom: 2px solid #c7c7c7;
+}
+
+.profile-img {
+  text-align: center;
+}
+
+.name {
+  padding: 10px;
+  text-align: center;
+}
+
+.setting {
+  width: 100%;
+  background-color: #5691fe !important;
+  color: #ffffff !important;
+  font-weight: 500 !important;
+  border-radius: 0 0 10px 10px !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.setting:hover {
+  background-color: #386ed1 !important;
+  color: #ffffff;
+  transition: 0.5s !important;
+}
+
+.logout {
+  margin-bottom: 20px;
+}
+
+/********************* MAIN *********************/
+
+.content {
+  padding: 30px !important;
+}
+
+.card {
+  margin: 10px auto !important;
+  min-width: 100px !important;
+  border-radius: 10px !important;
+  min-height: 280px !important;
+  box-shadow: 0px 0px 8px 0 rgb(0 0 0 / 25%) !important;
+}
+
+.card img {
+  border-radius: 10px !important;
+}
+
+.card p {
+  font-size: 10pt !important;
+}
+
+.checked {
+  color: orange !important;
+}
+
+.carousel-inner {
+  height: 300px !important;
+}
+
+.carousel-inner img {
+  width: 100% !important;
+  min-height: 300px !important;
+}
+
+.link {
+  text-decoration: none !important;
+  color: black;
+}
+
+.link:hover {
+  color: black;
+}
+
+.card img {
+  border-radius: 10px !important;
+  width: 100%;
+  height: 150px;
+}
+
+.card {
+  margin: 10px auto !important;
+  min-width: 100px !important;
+  border-radius: 10px !important;
+  min-height: 280px !important;
+  box-shadow: 0px 0px 8px 0 rgb(0 0 0 / 25%) !important;
+  height: 300px;
+}
+
+/********************* REVIEW *********************/
